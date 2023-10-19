@@ -4,3 +4,5 @@ Pillow==9.5.0
 gunicorn==19.7.1
 keras==2.11.0
 tensorflow==2.11.0
+
+matplotlib
