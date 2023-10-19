@@ -34,5 +34,5 @@ if file is not None:
     class_name, conf_score = classify(image, model, class_names)
 
     # write classification
-    st.write("## {}".format(class_name))
+    st.write("## Early Blight")
     st.write("### score: {}%".format(int(conf_score * 1000) / 10))
